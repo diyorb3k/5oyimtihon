@@ -38,9 +38,9 @@ function displayCards(data) {
         }" width="267px" height="160px" alt="Flag"> <!-- Bayroq -->
         <div style="padding: 20px">
           <h1>${el.name.official.slice(0, 40)}...</h1> <!-- Rasmiy nomi -->
-          <p>Population: ${el.population}</p> <!-- Aholisi -->
-          <p>Region: ${el.region}</p> <!-- Hududi -->
-          <p>Capital: ${
+          <p><strong>Population:</strong> ${el.population}</p> <!-- Aholisi -->
+          <p><strong>Region:</strong> ${el.region}</p> <!-- Hududi -->
+          <p><strong>Capital:</strong>${
             el.capital ? el.capital.join(", ") : "Ma'lumot yo'q"
           }</p> <!-- Poytaxti -->
         </div>
