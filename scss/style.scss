@@ -34,6 +34,10 @@ body {
   background-color: #2b3844;
   transition: background-color 0.2s, color 0.2s;
 }
+
+.darkmode button {
+  color: #fff;
+}
 ///HEADER
 ///
 ///
@@ -80,7 +84,7 @@ header {
     }
   }
   .darkmode button {
-    color: #fff;
+    color: #fff !important;
   }
 }
 
@@ -90,17 +94,9 @@ header {
 main {
   padding-top: 130px;
 }
-p {
-  span {
-    color: #222
+// p {
 
-    font-family: Nunito Sans;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 16px;
-    text-align: left;
-  }
-}
+// }
 .wraper {
   align-items: center;
   display: flex;
@@ -149,12 +145,22 @@ p {
   line-height: 16px;
   text-align: left;
 }
+.darkmode input {
+  background-color: #2b3844;
+  color: #fff;
+}
+.darkmode select {
+  background-color: #2b3844;
+  color: #fff !important;
+}
 .header_input {
   margin-bottom: 48px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   select {
+    outline: none;
+    cursor: pointer;
     color: #111517;
     margin-right: 3px;
     font-family: Nunito Sans;
@@ -203,6 +209,7 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     select {
+      cursor: pointer;
       color: #111517;
       margin-right: 3px;
       font-family: Nunito Sans;
@@ -293,6 +300,7 @@ p {
     align-items: center;
     justify-content: space-between;
     select {
+      cursor: pointer;
       color: #111517;
       margin-right: 3px;
       font-family: Nunito Sans;
@@ -341,6 +349,7 @@ p {
     align-items: center;
     justify-content: space-between;
     select {
+      cursor: pointer;
       color: #111517;
       margin-right: 3px;
       font-family: Nunito Sans;
@@ -389,6 +398,7 @@ p {
     align-items: center;
     justify-content: space-between;
     select {
+      cursor: pointer;
       color: #111517;
       margin-right: 3px;
       font-family: Nunito Sans;

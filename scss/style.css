@@ -36,6 +36,10 @@ body {
   transition: background-color 0.2s, color 0.2s;
 }
 
+.darkmode button {
+  color: #fff;
+}
+
 header {
   transition: background-color 0.2s, color 0.2s;
   position: fixed !important;
@@ -76,20 +80,11 @@ header nav button img {
   cursor: pointer;
 }
 header .darkmode button {
-  color: #fff;
+  color: #fff !important;
 }
 
 main {
   padding-top: 130px;
-}
-
-p span {
-  color: #111517;
-  font-family: Nunito Sans;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 16px;
-  text-align: left;
 }
 
 .wraper {
@@ -142,6 +137,16 @@ p {
   text-align: left;
 }
 
+.darkmode input {
+  background-color: #2b3844;
+  color: #fff;
+}
+
+.darkmode select {
+  background-color: #2b3844;
+  color: #fff !important;
+}
+
 .header_input {
   margin-bottom: 48px;
   display: flex;
@@ -149,6 +154,8 @@ p {
   justify-content: space-between;
 }
 .header_input select {
+  outline: none;
+  cursor: pointer;
   color: #111517;
   margin-right: 3px;
   font-family: Nunito Sans;
@@ -195,6 +202,7 @@ p {
     flex-wrap: wrap;
   }
   .header_input select {
+    cursor: pointer;
     color: #111517;
     margin-right: 3px;
     font-family: Nunito Sans;
@@ -279,6 +287,7 @@ p {
     justify-content: space-between;
   }
   .header_input select {
+    cursor: pointer;
     color: #111517;
     margin-right: 3px;
     font-family: Nunito Sans;
@@ -324,6 +333,7 @@ p {
     justify-content: space-between;
   }
   .header_input select {
+    cursor: pointer;
     color: #111517;
     margin-right: 3px;
     font-family: Nunito Sans;
@@ -369,6 +379,7 @@ p {
     justify-content: space-between;
   }
   .header_input select {
+    cursor: pointer;
     color: #111517;
     margin-right: 3px;
     font-family: Nunito Sans;
